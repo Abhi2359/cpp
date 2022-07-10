@@ -9,9 +9,7 @@ int main () {
     {
         cout<<"Maximum of three numbers is"<<a<<endl;
     }
-    else
-    {
-        if (b>c)
+    else if (b>c)
         {
          cout<<"Maximum of three numbers is"<<b<<endl;
         }
@@ -21,7 +19,7 @@ int main () {
         }
         
         
-    }
+    
     
     return 0;
 }

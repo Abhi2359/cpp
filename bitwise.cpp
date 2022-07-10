@@ -20,12 +20,12 @@ int main () {
       cout<<c<<endl;
 
       //SHIFT(LEFT)
-      char m=20,n;
+     unsigned char m=20,n;
       n=m<<1;
       cout<<(int)n<<endl;
 
        //SHIFT(right)
-      char s=20,t;
+      unsigned char s=20,t;
       t=s>>1;
       cout<<(int)t<<endl;   
 
